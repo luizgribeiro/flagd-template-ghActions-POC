@@ -1,0 +1,8 @@
+flags:
+  helloMessage:
+    state: ENABLED
+    variants:
+      'dev': 'I am a message from the develpment environment'
+      'staging': 'I am a message from the staging environment'
+      'prod': 'I am a message from the production environment'
+    defaultVariant: $TARGET_ENV 
